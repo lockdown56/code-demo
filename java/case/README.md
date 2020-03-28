@@ -7,8 +7,12 @@
 ### 知识点
 - tomcat 工作线程基于线程池, 线程池会重用固定的几个线程
 - ThreadLocal
+- ForkJoinPool
 - ConcurrentHashMap 
 - CopyOnWrite & CopyOnWriteArrayList
 
 ### 代码模拟
 com.example.javademo.threadsafe
+
+## 需要补充的知识点
+- java 并发编程

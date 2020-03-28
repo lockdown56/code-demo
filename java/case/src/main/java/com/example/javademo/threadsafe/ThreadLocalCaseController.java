@@ -7,7 +7,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/threadsafe/threadlocal")
-public class ThreadLocalDemoController {
+public class ThreadLocalCaseController {
 
     private static final ThreadLocal<Integer> currentUser = ThreadLocal.withInitial(() -> null);
 
